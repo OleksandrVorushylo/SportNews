@@ -1,0 +1,123 @@
+@media (max-width: 1200px)
+  .header
+    &-top
+      &__nav
+        margin-right: 50px
+      &__link
+        margin-right: 15px
+      &__recent-news
+        display: none
+    &-nav
+      &__link
+        margin-right: 20px
+    &__solial-link:last-child
+      margin-right: 0
+  // .top-slider
+  //   &__top .top-slider__slide
+  //     padding-top: 20px
+  //   &__top .top-slider__title
+  //     font-size: 32px
+  //     line-height: normal
+  //   &__bottom .top-slider__slide
+  //     padding: 15px
+  //   &__bottom .top-slider__slide span
+  //     font-size: 12px
+  //   &__bottom .top-slider__date
+  //     text-align-last: left
+  //     font-size: 14px
+@media (max-width: 992px)
+  .top-slider
+    &__top .top-slider__slide
+      padding-top: 20px
+    &__top .top-slider__title
+      font-size: 32px
+      line-height: normal
+    &__bottom .top-slider__slide
+      padding: 15px
+    &__bottom .top-slider__slide span
+      font-size: 12px
+    &__bottom .top-slider__date
+      text-align-last: left
+      font-size: 14px
+@media (max-width: 767px)
+  .background-top
+    // left: 90px
+  .background-bottom
+  .header
+    &-top
+      &__recent
+        // margin-left: 100px
+      &__nav
+        display: none
+      &__recent-btn
+        background-color: transparent
+    // &-menu
+    //   position: fixed
+    //   right: 5%
+    //   z-index: 1000
+    &-bottom
+      position: relative
+    &-nav
+      // margin-left: 100px
+      position: relative
+      &__link--this
+        padding-top: 0
+        padding-bottom: 0
+        border-top: none
+        border-bottom: none
+    &__social
+      position: absolute
+      right: 0
+      top: -60px
+  .background-mobile
+    display: block
+    position: fixed
+    top: 0
+    right: 0
+    left: 0
+    bottom: 0
+    background-color: #1f1a1a80
+    z-index: -100
+    opacity: 0
+    &--opacity
+      z-index: 10
+      opacity: 1
+  .top-slider
+    &__top .top-slider__slide
+      padding-top: 20px
+    &__top .top-slider__link
+      width: 100%
+    &__top .top-slider__title
+      font-size: 22px
+    &__bottom
+      display: none
+    &__wrapper
+      position: relative
+    &__pagination-wrap
+      position: relative
+      z-index: 10
+      margin-bottom: -33px
+      display: flex
+      justify-content: end
+      -webkit-box-pack: end
+      -ms-flex-pack: end
+      justify-content: end
+    &__pagination
+
+      display: block
+      // position: absolute
+      // top: 10px
+      // // right: 10px
+    &__btn
+      background-color: $blue
+      width: 23px
+      height: 23px
+      border: none
+      text-align: center
+      margin-left: 10px
+  .swiper-button-disabled
+    opacity: 0.5
+// @media (max-width: 576px)
+// @media (max-width: 476px)
+
+// @media (max-width: 376px)

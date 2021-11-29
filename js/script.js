@@ -9,6 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		const logo = document.querySelector('.header__logo'),
 			headerBottom = document.querySelector('.header-bottom'),
+			headerNavList = document.querySelector('.header-nav__list'),
 			topSliderWrapper = document.querySelector('.top-slider__wrapper'),
 			menuBtn = document.querySelector('.menu-button');
 
@@ -18,6 +19,8 @@ window.addEventListener('DOMContentLoaded', () => {
 			headerBottom.classList.add('header-bottom--opacity');
 			menuBtn.classList.remove('menu-active');
 			topSliderWrapper.classList.add('top-slider__wrapper--padding');
+			headerNavList.classList.remove('header-nav__list--mobile');
+			// document.querySelector('.background-mobile').classList.remove('background-mobile--opacity');
 
 		};
 		const menuEnable = () => {
@@ -26,6 +29,8 @@ window.addEventListener('DOMContentLoaded', () => {
 			headerBottom.classList.remove('header-bottom--opacity');
 			menuBtn.classList.add('menu-active');
 			topSliderWrapper.classList.remove('top-slider__wrapper--padding');
+			headerNavList.classList.add('header-nav__list--mobile');
+			// document.querySelector('.background-mobile').classList.add('background-mobile--opacity');
 		};
 
 		window.onscroll = function() { scrollNavbar(); };
@@ -65,6 +70,10 @@ window.addEventListener('DOMContentLoaded', () => {
 			spaceBetween: 10,
 			thumbs: {
 				swiper,
+			},
+			navigation: {
+				nextEl: ".top-slider__next",
+				prevEl: ".top-slider__prev",
 			},
 			// autoplay: {
 			// 	delay: 5000,
