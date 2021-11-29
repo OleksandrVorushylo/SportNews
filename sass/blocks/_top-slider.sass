@@ -1,0 +1,146 @@
+.swiper
+  width: 100%
+  height: 100%
+
+.swiper-slide
+  text-align: center
+  font-size: 18px
+  background: #fff
+
+        /* Center slide text vertically */
+  display: -webkit-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  -webkit-justify-content: center
+  justify-content: center
+  -webkit-box-align: center
+  -ms-flex-align: center
+  -webkit-align-items: center
+  align-items: center
+.swiper-slide img
+  display: block
+  width: 100%
+  height: 100%
+  object-fit: cover
+.swiper
+  width: 100%
+  height: 300px
+  margin-left: auto
+  margin-right: auto
+.swiper-slide
+  background-size: cover
+  background-position: center
+.mySwiper2
+  height: 432px
+  width: 100%
+.mySwiper
+  height: 165px
+  box-sizing: border-box
+  margin-top: 30px
+  padding: 0
+.mySwiper .swiper-slide
+  width: 25%
+  height: 100%
+  opacity: 0.5
+.mySwiper .swiper-slide-thumb-active
+  opacity: 1
+.swiper-slide img
+  display: block
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.top-slider
+  background-color: $background-gray
+  &__wrapper
+    padding-top: 220px
+    overflow: hidden
+    padding-bottom: 30px
+    transition: all 0.4s ease
+    &--padding
+      transition: all 0.4s ease
+      padding-top: 50px
+  &__top
+
+  &__bottom
+  &__slide
+
+  &__slide span
+    font-size: 14px
+    font-weight: 400
+    font-style: normal
+    letter-spacing: normal
+    line-height: normal
+    color: $background-gray
+
+  &__date
+    text-decoration: none
+
+  &__bottom .top-slider__date span:nth-child(2)
+    display: none
+
+  &__bottom .top-slider__slide
+    display: flex
+    background-color: $background-black
+    padding: 35px 35px 30px 35px
+    justify-content: start
+    flex-wrap: wrap
+    align-items: center
+  &__bottom .top-slider__link
+    flex-basis: 100%
+  &__category
+    padding: 4px
+    background-color: $blue
+    text-decoration: none
+    font-size: 14px
+    font-weight: 400
+    font-style: normal
+    letter-spacing: normal
+    line-height: normal
+    color: #fff
+  &__autor
+    text-decoration: none
+  &__bottom .top-slider__category
+    margin-right: 20px
+  &__bottom .top-slider__title
+    font-size: 18px
+    text-align: left
+  &__link
+    text-decoration: none
+
+  &__top .top-slider__slide
+    background-color: transparent
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    padding-top: 100px
+
+  &__top .top-slider__category
+    color: #fff
+    order: 1
+  &__top .top-slider__link
+    width: 80%
+    margin-top: 30px
+    margin-bottom: 39px
+    padding: 0
+    order: 2
+
+  &__top .top-slider__title
+    font-size: 60px
+    line-height: 58px
+    font-style: normal
+    letter-spacing: normal
+    font-weight: 700
+
+  &__top .top-slider__date
+    text-decoration: none
+    order: 3
+
+  &__top .top-slider__date span
+    color: #fff
+  &__top .top-slider__autor
+    display: none

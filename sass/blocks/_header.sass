@@ -1,0 +1,231 @@
+.header
+  background-color: $background-black
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  overflow: hidden
+  z-index: 100
+  // &--opacity
+  //   height: 50px
+  &-wrapper
+    position: relative
+  &__logo img
+    height: 120px
+  &__logo
+    position: absolute
+    z-index: -1
+    top: 0
+    padding-top: 38px
+    padding-bottom: 45px
+    border-top: 3px solid $blue
+    border-bottom: 3px solid $blue
+    transition: all 0.4s ease
+    &--scroll
+      transition: all 0.4s ease
+      transform: scale(0.4) translateY(-90px)
+      border-top: 0px solid $blue
+      border-bottom: 0px solid $blue
+      padding: 0
+    &--scroll img
+  &-top
+    position: relative
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: 50px
+    z-index: 10
+    &__recent
+      display: flex
+      justify-content: space-between
+      align-items: center
+      margin-left: 188px
+    &__recent-btn
+      height: 50px
+      width: 50px
+      background-color: $blue
+      margin-right: 21px
+      display: flex
+      align-items: center
+      justify-content: center
+    &__recent-news
+      font-size: 12px
+      font-weight: 400
+      font-style: normal
+      letter-spacing: normal
+      text-align: left
+      text-decoration: none
+    &__nav
+      display: flex
+      align-items: center
+      justify-content: space-between
+      margin-right: 84px
+    &__link
+      font-size: 12px
+      font-weight: 400
+      font-style: normal
+      letter-spacing: normal
+      margin-right: 30px
+      text-transform: uppercase
+    &__dropdown
+      display: flex
+      align-items: start
+    &__dropbtn
+      padding: none
+      border: none
+      background-color: transparent
+      font-size: 12px
+      font-weight: 400
+      font-style: normal
+      letter-spacing: normal
+      margin-right: 30px
+      text-transform: uppercase
+    &__list
+      display: none
+    &__current
+  &-menu
+    position: absolute
+    top: 0
+    right: 0
+    height: 50px
+    width: 50px
+    background-color: $blue
+    z-index: 11
+  &-bottom
+    position: relative
+    margin-top: 100px
+    height: 63px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    z-index: 10
+    transition: all 0.4s ease
+    &--scroll
+      transition: all 0.4s ease
+      margin-top: 10px
+    &--opacity
+      z-index: -100
+      margin-top: -64px
+      opacity: 0
+  &-nav
+    margin-left: 188px
+    &__list
+      padding: 0
+      display: flex
+      justify-content: space-between
+    &__item
+    &__link
+      position: relative
+      font-size: 14px
+      font-weight: 700
+      font-style: normal
+      letter-spacing: normal
+      text-transform: uppercase
+      margin-right: 30px
+      text-decoration: none
+      &--this
+        padding-top: 22px
+        padding-bottom: 19px
+        border-top: 3px solid $blue
+        border-bottom: 3px solid $blue
+
+  &__social
+    display: flex
+    align-items: center
+  &__solial-link
+    text-decoration: none
+    margin-right: 30px
+    font-size: 20px
+    font-weight: 400
+    font-style: normal
+    line-height: normal
+    letter-spacing: normal
+
+.active-link
+  position: relative
+
+.background-top
+  position: absolute
+  z-index: -1
+  top: 0
+  right: -100vw
+  left: 137px
+  height: 50px
+  background-color: $background-dark
+  transform: skew(40deg, 0)
+.background-bottom
+  height: 64px
+  background-color: $background-dark
+  position: absolute
+  z-index: -1
+  top: 0
+  right: -100vw
+  left: 137px
+  transform: skew(-40deg, 0)
+
+.menu:focus
+  outline: none
+.menu
+  &-button
+    display: block
+    position: absolute
+    right: 0
+    top: 0
+    overflow: hidden
+    margin: 0
+    padding: 0
+    width: 50px
+    height: 72px
+    font-size: 0
+    box-shadow: none
+    cursor: pointer
+    background-color: transparent
+    border: none
+  &-button:focus
+    outline: none
+  &-button span
+    display: block
+    position: absolute
+    top: 24px
+    left: 10px
+    right: 10px
+    height: 2px
+    background: #fff
+  &-button span::before, .menu-button span::after
+    position: absolute
+    display: block
+    left: 0
+    width: 100%
+    height: 2px
+    background: #fff
+    content: ""
+  &-button span::before
+    top: -8px
+  &-button span::after
+    bottom: -8px
+  &-line span
+    transition: all 0.3s ease
+  &-line span::before, .menu-line span::after
+    transition-duration: 0.3s, 0.3s
+    transition-delay: 0.3s, 0s
+  &-line span::before
+    transition-property: top, transform
+  &-line span::after
+    transition-property: bottom, transform
+  &-line.menu-active
+  &-line.menu-active span
+    background: none
+  &-line.menu-active span::before
+    top: 0
+    transform: rotate(-45deg)
+  &-line.menu-active span::after
+    bottom: 0
+    transform: rotate(45deg)
+  &-line.menu-active span::before .menu-line.menu-active span::after
+    transition-delay: 0s, 0.3s
+
+.height
+  height: 2000px
+.header-x
+  height: 50px
+  background-color: $background-gray
