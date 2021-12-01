@@ -914,8 +914,6 @@ body {
 }
 
 .right {
-  background-color: red;
-  height: 200px;
   width: 100%;
   grid-area: 1 / 3 / 2 / 4;
   display: flex;
@@ -1290,6 +1288,104 @@ body {
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
+}
+
+.table {
+  overflow: hidden;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.table-head {
+  position: relative;
+  width: 100%;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px 5px 0 0;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  color: black;
+}
+
+.table-head__title {
+  font-family: 'Play', sans-serif;
+  color: black;
+  line-height: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.table-wrap {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.table-points {
+  padding: 30px;
+  color: black;
+  width: 100%;
+}
+
+.table-points__head tr {
+  height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.table-points__head td {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.table-points__body tr {
+  height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.table-points__body td {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.table-points__name {
+  position: relative;
+  height: 50px;
+}
+
+.table-points__name span {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-left: 14px;
+}
+
+.table-bottom {
+  height: 50px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 5px 5px;
+}
+
+.table-bottom__btn {
+  color: #444444;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 @media (max-width: 1200px) {
