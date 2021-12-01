@@ -59,14 +59,14 @@ window.addEventListener('DOMContentLoaded', () => {
 	menuNav();
 
 	const topSlider = () => {
-		const swiper = new Swiper(".mySwiper", {
+		const swiper = new Swiper(".top-slider__bottom", {
 			spaceBetween: 30,
 			slidesPerView: 3,
 			freeMode: true,
 			watchSlidesProgress: true,
 
 		});
-		const swiper2 = new Swiper(".mySwiper2", {
+		const swiper2 = new Swiper(".top-slider__top", {
 			spaceBetween: 10,
 			thumbs: {
 				swiper,
@@ -75,12 +75,22 @@ window.addEventListener('DOMContentLoaded', () => {
 				nextEl: ".top-slider__next",
 				prevEl: ".top-slider__prev",
 			},
-			// autoplay: {
-			// 	delay: 5000,
-			// },
+			autoplay: {
+				delay: 5000,
+			},
 		});
 	};
 	topSlider();
+
+	const newsSlider = () => {
+		const swiper3 = new Swiper(".news-swiper", {
+			navigation: {
+				nextEl: ".news-swiper__next",
+				prevEl: ".news-swiper__prev",
+			},
+		});
+	};
+	newsSlider();
 
 
 });
