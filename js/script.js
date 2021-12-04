@@ -3,8 +3,10 @@ window.addEventListener('DOMContentLoaded', () => {
 	const menuNav = () => {
 
 		const header = document.querySelector('.header'),
-			topSilder = document.querySelector('.top-slider');
+			topSilder = document.querySelector('.header-x'),
+			home = document.querySelector('.home');
 		const sticky = topSilder.offsetTop;
+		const stickyHome = home.offsetTop;
 
 
 		const logo = document.querySelector('.header__logo'),
@@ -45,7 +47,6 @@ window.addEventListener('DOMContentLoaded', () => {
 			if (menuBtn.classList.contains('menu-active')) {
 				menuBtn.classList.remove('menu-active');
 				menuDisable();
-
 			} else if (!menuBtn.classList.contains('menu-active')) {
 				menuBtn.classList.add('menu-active');
 				menuEnable();
@@ -88,6 +89,7 @@ window.addEventListener('DOMContentLoaded', () => {
 				nextEl: ".news-swiper__next",
 				prevEl: ".news-swiper__prev",
 			},
+			effect: 'fade',
 		});
 	};
 	newsSlider();
