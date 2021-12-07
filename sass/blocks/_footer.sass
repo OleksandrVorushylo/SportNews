@@ -40,3 +40,103 @@
       align-items: center
       text-align: center
       margin-left: 10px
+
+  &-main
+    background-color: $background-black
+    padding-top: 60px
+    padding-bottom: 60px
+    &__wrapper
+      display: flex
+      justify-content: space-between
+    &__about
+      width: 26.7%
+    &__nav
+      position: relative
+      width: 26.7%
+    &__social
+      position: relative
+      width: 26.7%
+
+    &__title
+      text-decoration: none
+    &__title h3
+      font-size: 22px
+      font-weight: 700
+      font-style: normal
+      letter-spacing: normal
+      text-decoration: none
+    &__title span
+      color: $blue
+    &__text
+      color: #fff
+      opacity: 0.5
+      font-size: 14px
+      font-weight: 400
+      font-style: normal
+      letter-spacing: normal
+      line-height: 24px
+      text-align: left
+      width: 90%
+      margin-left: 2px
+      margin-top: 32px
+
+    &__head
+      position: relative
+      // height: 62px
+      display: flex
+      justify-content: space-between
+      align-items: center
+      padding: 0px 30px
+    &__head h3
+      font-size: 22px
+      font-weight: 400
+      font-style: normal
+      letter-spacing: normal
+    &__nav ul
+      padding: 0
+      padding-left: 32px
+      margin: 0
+      margin-top: 30px
+    &__nav li
+      opacity: 0.5
+      font-size: 14px
+      font-weight: 400
+      font-style: normal
+      letter-spacing: normal
+      text-align: left
+      margin-bottom: 20px
+    &__nav a
+      text-decoration: none
+      color: inherit
+
+    &__social ul
+      display: flex
+      padding: 0
+      margin: 0
+      margin-top: 30px
+    &__social a
+      height: 50px
+      width: 50px
+      margin-right: 5px
+      display: flex
+      justify-content: center
+      align-items: center
+      text-align: center
+      border-radius: 5px
+      text-decoration: none
+      font-size: 22px
+    &__social #telegram
+      background: linear-gradient(120deg, #0088cc, #FFFFFF)
+    &__social #instagram
+      background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)
+    &__social #gmail
+      background: linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335)
+    &__social li
+
+  &-bottom
+    background-color: $background-dark
+    &__wrapper
+      height: 70px
+      display: flex
+      align-items: center
+      justify-content: space-between

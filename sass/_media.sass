@@ -12,19 +12,16 @@
         margin-right: 20px
     &__solial-link:last-child
       margin-right: 0
-  // .top-slider
-  //   &__top .top-slider__slide
-  //     padding-top: 20px
-  //   &__top .top-slider__title
-  //     font-size: 32px
-  //     line-height: normal
-  //   &__bottom .top-slider__slide
-  //     padding: 15px
-  //   &__bottom .top-slider__slide span
-  //     font-size: 12px
-  //   &__bottom .top-slider__date
-  //     text-align-last: left
-  //     font-size: 14px
+  .table
+    &-points
+      padding-right: 15px
+      padding-left: 15px
+    &-player
+      padding-right: 15px
+      padding-left: 15px
+    &-bottom
+      padding-right: 15px
+      padding-left: 15px
 @media (max-width: 992px)
   .top-slider
     &__top .top-slider__slide
@@ -39,6 +36,40 @@
     &__bottom .top-slider__date
       text-align-last: left
       font-size: 14px
+  .home
+    &-wrapper
+      display: flex
+      flex-wrap: wrap
+  .news
+    order: 1
+  .blog
+    order: 2
+  .right
+    order: 3
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    flex-direction: row
+  .table
+    flex-basis: 48.05194805195%
+    padding-bottom: 50px
+    position: relative
+    background-color: #fff
+    &-points
+      padding-right: 30px
+      padding-left: 30px
+      box-shadow: 0 0 0px rgba(0, 0, 0, 0)
+    &-player
+      padding-right: 30px
+      padding-left: 30px
+      box-shadow: 0 0 0px rgba(0, 0, 0, 0)
+    &-bottom
+      position: absolute
+      bottom: 0
+      right: 0
+      left: 0
+      padding-right: 30px
+      padding-left: 30px
 @media (max-width: 767px)
   .background-top
     // left: 90px
@@ -117,6 +148,48 @@
       margin-left: 10px
   .swiper-button-disabled
     opacity: 0.5
+  .news
+    &-card
+      flex-basis: 100%
+    &-head
+      &__nav
+        display: none
+  .table
+    flex-basis: 100%
+  .footer
+    &-top
+      &__wrapper
+        flex-direction: column
+      &__title
+        margin-bottom: 20px
+        text-align: center
+      &__form
+        width: 100%
+      &__subscribe
+        width: 60%
+      &__btn
+        width: 40%
+    &-main
+      &__wrapper
+        flex-wrap: wrap
+      &__about
+        order: 3
+        width: 100%
+        margin-top: 20px
+      &__nav
+        order: 2
+        position: relative
+        width: 50%
+      &__social
+        order: 1
+        position: relative
+        width: 50%
+    &-bottom
+      padding: 20px 0
+      &__wrapper
+        flex-direction: column
+      &__wrapper span
+        text-align: center
 // @media (max-width: 576px)
 // @media (max-width: 476px)
 
