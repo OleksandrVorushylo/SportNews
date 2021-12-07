@@ -444,6 +444,16 @@ body {
   z-index: 10;
 }
 
+.header-top__login img {
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  margin-right: 11px;
+  object-fit: cover;
+}
+
 .header-top__recent {
   display: flex;
   justify-content: space-between;
@@ -474,6 +484,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-items: center;
   margin-right: 84px;
 }
 
@@ -621,7 +632,7 @@ body {
   margin: 0;
   padding: 0;
   width: 50px;
-  height: 72px;
+  height: 50px;
   font-size: 0;
   box-shadow: none;
   cursor: pointer;
@@ -1718,6 +1729,137 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.link {
+  transition: all 0.4s ease;
+}
+
+.link:hover {
+  border-bottom: 1px solid #08a4eb;
+  color: #08a4eb;
+}
+
+.active-link {
+  transition: all 0.4s ease;
+}
+
+.active-link:hover {
+  border-bottom: 3px solid #08a4eb;
+  color: #08a4eb;
+}
+
+.dropbtn {
+  transition: all 0.4s ease;
+}
+
+.dropbtn:hover {
+  color: #08a4eb;
+}
+
+.li {
+  transition: all 0.4s ease;
+}
+
+.li:hover {
+  color: #08a4eb;
+}
+
+.news-card__autor {
+  transition: all 0.4s ease;
+}
+
+.news-card__autor:hover {
+  color: #08a4eb;
+}
+
+.news-card__autor span {
+  transition: all 0.4s ease;
+}
+
+.news-card__autor span:hover {
+  color: #08a4eb;
+  border-bottom: 1px solid #08a4eb;
+}
+
+.table-bottom__btn {
+  transition: all 0.4s ease;
+}
+
+.table-bottom__btn:hover {
+  color: #08a4eb !important;
+}
+
+.footer-main__nav li {
+  transition: all 0.4s ease;
+}
+
+.footer-main__nav li:hover {
+  opacity: 1.0;
+}
+
+.footer-main__social a {
+  transition: all 0.4s ease;
+}
+
+.footer-main__social a:hover {
+  opacity: 0.7;
+}
+
+.button {
+  transition: all 0.4s ease;
+}
+
+.button:hover {
+  background-color: #0cb98e;
+}
+
+.news-card__share {
+  transition: all 0.4s ease;
+}
+
+.news-card__share:hover {
+  background-color: #0cb98e;
+}
+
+.menu-button {
+  transition: all 0.4s ease;
+}
+
+.menu-button:hover {
+  background-color: #0cb98e;
+}
+
+.news-swiper__category {
+  transition: all 0.4s ease;
+}
+
+.news-swiper__category:hover {
+  background-color: #0cb98e;
+}
+
+.news-swiper__btn {
+  transition: all 0.4s ease;
+}
+
+.news-swiper__btn:hover {
+  background-color: #0cb98e;
+}
+
+.news-card__category span {
+  transition: all 0.4s ease;
+}
+
+.news-card__category span:hover {
+  background-color: #0cb98e;
+}
+
+.top-slider__category {
+  transition: all 0.4s ease;
+}
+
+.top-slider__category:hover {
+  background-color: #0cb98e;
 }
 
 @media (max-width: 1200px) {

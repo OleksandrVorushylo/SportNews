@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/0639a1d61b.js" crossorigin="anonymous"></script>
@@ -22,7 +23,7 @@
             <img src="img/logo/logo.png" alt="Logo">
           </a>
           <div class="header-top__recent">
-            <a href="#" class="header-top__recent-btn">
+            <a href="#" class="button header-top__recent-btn">
               <img src="img/icon/header/recent.png" alt="">
             </a>
             <a href="" class="header-top__recent-news">
@@ -32,6 +33,9 @@
           <!-- /.header-top__left -->
 
           <div class="header-top__nav">
+            <a class="header-top__login">
+              <img src="img/news/test.jpg" alt="Logo">
+            </a>
             <a class="link header-top__link">
               Войти
             </a>
@@ -39,7 +43,7 @@
               Регистрация
             </a>
             <div class="header-top__dropdown">
-              <button class="header-top__dropbtn">RU
+              <button class="dropbtn header-top__dropbtn">RU <i class="fas fa-chevron-down"></i>
               </button>
               <div class="header-top__list">
                 <a class="header-top__current" href="#">RU</a>
@@ -178,7 +182,7 @@
           </div>
           <div thumbsSlider="" class="swiper mySwiper top-slider__bottom">
             <div class="swiper-wrapper top-slider__swiper-wrapper">
-              <div class="swiper-slide top-slider__slide">
+              <div data-aos="fade-up" class="swiper-slide top-slider__slide">
                 <a href="#" class="top-slider__category">Слухи</a>
                 <a href="#" class="top-slider__date">
                   <span>01 декабря 2021</span>
@@ -191,7 +195,7 @@
                   <span>Иван Иванов</span>
                 </a>
               </div>
-              <div class="swiper-slide top-slider__slide">
+              <div data-aos="fade-up" class="swiper-slide top-slider__slide">
                 <a href="#" class="top-slider__category">Англия</a>
                 <a href="#" class="top-slider__date">
                   <span>02 декабря 2021</span>
@@ -204,7 +208,7 @@
                   <span>Иван Иванов</span>
                 </a>
               </div>
-              <div class="swiper-slide top-slider__slide">
+              <div data-aos="fade-up" class="swiper-slide top-slider__slide">
                 <a href="#" class="top-slider__category">Украина</a>
                 <a href="#" class="top-slider__date">
                   <span>02 декабря 2021</span>
@@ -217,7 +221,7 @@
                   <span>Иван Иванов</span>
                 </a>
               </div>
-              <div class="swiper-slide top-slider__slide">
+              <div data-aos="fade-up" class="swiper-slide top-slider__slide">
                 <a href="#" class="top-slider__category">Англия</a>
                 <a href="#" class="top-slider__date">
                   <span>02 декабря 2021</span>
@@ -230,7 +234,7 @@
                   <span>Иван Иванов</span>
                 </a>
               </div>
-              <div class="swiper-slide top-slider__slide">
+              <div data-aos="fade-up" class="swiper-slide top-slider__slide">
                 <a href="#" class="top-slider__category">Блог</a>
                 <a href="#" class="top-slider__date">
                   <span>25 ноября 2021</span>
@@ -260,10 +264,10 @@
               <div class="line-shape"></div>
               <h2 class="news-head__title">Новости</h2>
               <ul class="news-head__nav">
-                <li class="news-head__category news-head__category--active">Все</li>
-                <li class="news-head__category">Чемпионат</li>
-                <li class="news-head__category">Команды</li>
-                <li class="news-head__category">Слухи</li>
+                <li class="li news-head__category news-head__category--active">Все</li>
+                <li class="li news-head__category">Чемпионат</li>
+                <li class="li news-head__category">Команды</li>
+                <li class="li news-head__category">Слухи</li>
               </ul>
             </div>
 
@@ -329,7 +333,7 @@
             </div>
             <!-- /.news-swiper -->
 
-            <div class="news-card">
+            <div data-aos="fade-up" class="news-card">
               <div class="news-card__top">
                 <div class="background-news"></div>
                 <img src="https://pic.sport.ua/images/news/0/14/23/orig_564675.jpg" alt="">
@@ -366,7 +370,7 @@
             </div>
             <!-- /.news-card -->
 
-            <div class="news-card">
+            <div data-aos="fade-up" class="news-card">
               <div class="news-card__top">
                 <div class="background-news"></div>
                 <img src="https://s.ill.in.ua/i/news/630x373/467/467265.jpg" alt="">
@@ -403,7 +407,7 @@
             </div>
             <!-- /.news-card -->
             
-            <div class="news-card">
+            <div data-aos="fade-up" class="news-card">
               <div class="news-card__top">
                 <div class="background-news"></div>
                 <img src="img/news/test2.jpg" alt="">
@@ -438,7 +442,7 @@
               </div>
             </div>
             <!-- /.news-card -->
-            <div class="news-card">
+            <div data-aos="fade-up" class="news-card">
               <div class="news-card__top">
                 <div class="background-news"></div>
                 <img src="img/news/test.jpg" alt="">
@@ -475,7 +479,7 @@
             </div>
             <!-- /.news-card -->
 
-            <a href="#" class="news__button">
+            <a href="#" class="button news__button">
               <span>Все новости</span>
             </a>
 
@@ -957,7 +961,7 @@
               </ul>
             </div>
 
-            <div class="news-card">
+            <div data-aos="fade-up" class="news-card">
               <div class="news-card__top">
                 <div class="background-news"></div>
                 <img src="https://www.soccer.ru/sites/default/files/styles/new_desine_465_310_webp/public/blogs/records/999_2.jpg?itok=FlM0gr5N" alt="">
@@ -994,7 +998,7 @@
             </div>
             <!-- /.news-card -->
 
-            <div class="news-card">
+            <div data-aos="fade-up" class="news-card">
               <div class="news-card__top">
                 <div class="background-news"></div>
                 <img src="https://www.soccer.ru/sites/default/files/styles/new_desine_465_310_webp/public/blogs/records/nd3_50i7275_thumb7.jpg?itok=_wM-ODYe" alt="">
@@ -1031,7 +1035,7 @@
             </div>
             <!-- /.news-card -->
 
-            <a href="#" class="news__button">
+            <a href="#" class="button news__button">
               <span>Все статьи</span>
             </a>
 
@@ -1057,7 +1061,7 @@
           <form action="send.php" method="POST" class="footer-top__form">
             <input id="form-mail" type="mail" class="footer-top__subscribe" placeholder="Введите свой почтовый адрес ..." name="mail"
               required minlength="4">
-            <button class="footer-top__btn">Подписаться</button>
+            <button class="button footer-top__btn">Подписаться</button>
           </form>
         </div>
       </div>
@@ -1100,17 +1104,17 @@
               <h3>Контакты</h3>
             </div>
             <ul>
-              <li>
+              <li >
                 <a id="telegram" href="#">
                   <i class="fab fa-telegram-plane" aria-hidden="true"></i>
                 </a>
               </li>
-              <li>
+              <li >
                 <a id="instagram" href="#">
                   <i class="fab fa-instagram" aria-hidden="true"></i>
                 </a>
               </li>
-              <li>
+              <li >
                 <a id="gmail" href="#">
                   <i class="fas fa-envelope"></i>
                 </a>
@@ -1137,6 +1141,7 @@
   <!-- /.footer -->
 
 
+  <script src="js/plugins/aos.js"></script>
   <script src="js/plugins/swiper-bundle.min.js"></script>
   <script src="js/script.js"></script>
 </body>

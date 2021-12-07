@@ -95,4 +95,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	newsSlider();
 
 
+	AOS.init();
+
+
 });
