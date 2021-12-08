@@ -398,6 +398,11 @@ body {
   text-decoration: none;
 }
 
+.all--padding {
+  transition: all 0.4s ease;
+  padding-top: 50px !important;
+}
+
 .header {
   background-color: #333333;
   position: fixed;
@@ -484,7 +489,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  align-items: center;
   margin-right: 84px;
 }
 
@@ -1129,6 +1133,7 @@ body {
   border-radius: 5px;
   margin-top: 30px;
   position: relative;
+  background-color: #fff;
 }
 
 .news-card__top {
@@ -1297,6 +1302,7 @@ body {
   width: 100%;
   height: 50px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border: none;
   border-radius: 5px;
   background-color: #08a4eb;
   margin-top: 30px;
@@ -1305,6 +1311,7 @@ body {
   justify-content: center;
   text-align: center;
   text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .news__button span {
@@ -1537,6 +1544,15 @@ body {
 
 .blog__nav {
   display: none;
+}
+
+.all-news {
+  transition: all 0.4s ease;
+  padding-top: 220px;
+}
+
+#all .news-card {
+  flex-basis: 31.62393162%;
 }
 
 .footer {
@@ -1951,6 +1967,9 @@ body {
     padding-right: 30px;
     padding-left: 30px;
   }
+  #all .news-card {
+    flex-basis: 48.05194805195%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2080,6 +2099,9 @@ body {
   }
   .footer-bottom__wrapper span {
     text-align: center;
+  }
+  #all .news-card {
+    flex-basis: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

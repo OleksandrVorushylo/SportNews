@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/0639a1d61b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="header-top">
+          <a href="index.html" class="header__logo">
+            <img src="img/logo/logo.png" alt="Logo">
+          </a>
+          <div class="header-top__recent">
+            <a href="#" class="button header-top__recent-btn">
+              <img src="img/icon/header/recent.png" alt="">
+            </a>
+            <a href="" class="header-top__recent-news">
+              <h4>Ливерпуль побил национальный рекорд, который держался почти 100 лет</h4>
+            </a>
+          </div>
+          <!-- /.header-top__left -->
+
+          <div class="header-top__nav">
+            <a class="header-top__login">
+              <img src="img/news/test.jpg" alt="Logo">
+            </a>
+            <a class="link header-top__link">
+              Войти
+            </a>
+            <a class="link header-top__link">
+              Регистрация
+            </a>
+            <div class="header-top__dropdown">
+              <button class="dropbtn header-top__dropbtn">RU <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="header-top__list">
+                <a class="header-top__current" href="#">RU</a>
+                <a href="#">UA</a>
+              </div>
+            </div>
+          </div>
+          <!-- /.header-top__nav -->
+          <div class="menu header-menu">
+            <button class="menu-button menu-start menu-line header-menu__button header-menu__line">
+              <span>меню</span>
+            </button>
+          </div>
+          <!-- /.header-top__menu -->
+          <div class="background-top"></div>
+        </div>
+        <!-- /.header-top -->
+
+        <div class="header-bottom">
+          <nav class="header-nav">
+            <ul class="header-nav__list">
+              <li class="header-nav__item">
+                <a href="index.html" class="link header-nav__link">Главная</a>
+              </li>
+              <li class="header-nav__item">
+                <a href="news.html" class="link header-nav__link">Новости</a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#" class="link active-link header-nav__link header-nav__link--this">Блог</a>
+              </li>
+            </ul>
+            <!-- /.header-nav__list -->
+          </nav>
+          <!-- /.header__nav -->
+
+          <div class="header__social">
+            <a href="" class="header__solial-link"><img src="" alt="">
+              <i class="fab fa-telegram-plane"></i>
+            </a>
+            <a href="" class="header__solial-link"><img src="" alt="">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+          <!-- /.header__social -->
+          <div class="background-bottom"></div>
+        </div>
+        <!-- /.header-bottom -->
+        
+      </div>
+      <!-- /.header-wrapper -->
+    </div>
+    <!-- /.container -->
+  </header>
+  <!-- /.header -->
+  <div class="header-x"></div>
+  <div class="background-mobile"></div>
+
+  <main class="main">
+    
+    <section id="all" class="all-news">
+      <div class="container">
+        <div class="news">
+          <div class="news-head">
+            <div class="line-shape"></div>
+            <h2 class="news-head__title">Блог</h2>
+            <ul class="news-head__nav blog__nav">
+              <li class="news-head__category news-head__category--active">Все</li>
+              <li class="news-head__category">Чемпионат</li>
+              <li class="news-head__category">Команды</li>
+              <li class="news-head__category">Слухи</li>
+            </ul>
+          </div>
+        
+          <!-- /.news-head -->
+        
+          <div class="news-card">
+            <div class="news-card__top">
+              <div class="background-news"></div>
+              <img
+                src="https://www.soccer.ru/sites/default/files/styles/new_desine_465_310_webp/public/blogs/records/999_2.jpg?itok=FlM0gr5N"
+                alt="">
+              <div class="news-card__top-wrap">
+                <div class="news-card__category"><span>Блог</span></div>
+                <a href="#" class="news-card__date">
+                  <span>29 ноября 2021</span>
+                  <span>- 10 минут назад</span>
+                </a>
+                <div class="news-card__reviews">
+                  <button class="news-card__reviews-btn"><i class="far fa-comments"></i></button>
+                  <span>10</span>
+                  <button class="news-card__reviews-btn"><i class="far fa-heart"></i></button>
+                  <span>15</span>
+                </div>
+              </div>
+            </div>
+            <!-- /.news-card__top -->
+            <div class="news-card__news">
+              <a href="#" class="news-card__link">
+                <h3 class="title news-card__title">Трансферная лихорадка</h3>
+              </a>
+              <p class="news-card__text">Блог об одном из самых захватывающих явлений футбольного мира - о трансферах!
+                Состоявшихся и потенциальных, больших и
+                маленьких, удачных и провальных.</p>
+            </div>
+            <!-- /.news-card__news -->
+            <div class="news-card__bottom">
+              <a href="#" class="news-card__autor">
+                <img src="img/news/test.jpg" alt="">
+                <span>Иван Иванов</span>
+              </a>
+              <a href="#" class="news-card__share"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+          <!-- /.news-card -->
+        
+          <div class="news-card">
+            <div class="news-card__top">
+              <div class="background-news"></div>
+              <img
+                src="https://www.soccer.ru/sites/default/files/styles/new_desine_465_310_webp/public/blogs/records/nd3_50i7275_thumb7.jpg?itok=_wM-ODYe"
+                alt="">
+              <div class="news-card__top-wrap">
+                <div class="news-card__category"><span>Блог</span></div>
+                <a href="#" class="news-card__date">
+                  <span>29 ноября 2021</span>
+                  <span>- 10 минут назад</span>
+                </a>
+                <div class="news-card__reviews">
+                  <button class="news-card__reviews-btn"><i class="far fa-comments"></i></button>
+                  <span>10</span>
+                  <button class="news-card__reviews-btn"><i class="far fa-heart"></i></button>
+                  <span>15</span>
+                </div>
+              </div>
+            </div>
+            <!-- /.news-card__top -->
+            <div class="news-card__news">
+              <a href="#" class="news-card__link">
+                <h3 class="title news-card__title">Командный дух</h3>
+              </a>
+              <p class="news-card__text">Стремясь к победам, тренеры объединяют индивидуальные таланты в командную силу, а
+                менеджеры выстраивают вертикаль
+                власти. О достижениях и неудачах команд и клубов - в самом коллективном блоге «Командный дух»!</p>
+            </div>
+            <!-- /.news-card__news -->
+            <div class="news-card__bottom">
+              <a href="#" class="news-card__autor">
+                <img src="img/news/test.jpg" alt="">
+                <span>Иван Иванов</span>
+              </a>
+              <a href="#" class="news-card__share"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+          <!-- /.news-card -->
+                
+          <div class="news-card">
+            <div class="news-card__top">
+              <div class="background-news"></div>
+              <img
+                src="https://www.soccer.ru/sites/default/files/styles/new_desine_465_310_webp/public/blogs/records/999_2.jpg?itok=FlM0gr5N"
+                alt="">
+              <div class="news-card__top-wrap">
+                <div class="news-card__category"><span>Блог</span></div>
+                <a href="#" class="news-card__date">
+                  <span>29 ноября 2021</span>
+                  <span>- 10 минут назад</span>
+                </a>
+                <div class="news-card__reviews">
+                  <button class="news-card__reviews-btn"><i class="far fa-comments"></i></button>
+                  <span>10</span>
+                  <button class="news-card__reviews-btn"><i class="far fa-heart"></i></button>
+                  <span>15</span>
+                </div>
+              </div>
+            </div>
+            <!-- /.news-card__top -->
+            <div class="news-card__news">
+              <a href="#" class="news-card__link">
+                <h3 class="title news-card__title">Трансферная лихорадка</h3>
+              </a>
+              <p class="news-card__text">Блог об одном из самых захватывающих явлений футбольного мира - о трансферах!
+                Состоявшихся и потенциальных, больших и
+                маленьких, удачных и провальных.</p>
+            </div>
+            <!-- /.news-card__news -->
+            <div class="news-card__bottom">
+              <a href="#" class="news-card__autor">
+                <img src="img/news/test.jpg" alt="">
+                <span>Иван Иванов</span>
+              </a>
+              <a href="#" class="news-card__share"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+          <!-- /.news-card -->
+        
+          <div class="news-card">
+            <div class="news-card__top">
+              <div class="background-news"></div>
+              <img
+                src="https://www.soccer.ru/sites/default/files/styles/new_desine_465_310_webp/public/blogs/records/nd3_50i7275_thumb7.jpg?itok=_wM-ODYe"
+                alt="">
+              <div class="news-card__top-wrap">
+                <div class="news-card__category"><span>Блог</span></div>
+                <a href="#" class="news-card__date">
+                  <span>29 ноября 2021</span>
+                  <span>- 10 минут назад</span>
+                </a>
+                <div class="news-card__reviews">
+                  <button class="news-card__reviews-btn"><i class="far fa-comments"></i></button>
+                  <span>10</span>
+                  <button class="news-card__reviews-btn"><i class="far fa-heart"></i></button>
+                  <span>15</span>
+                </div>
+              </div>
+            </div>
+            <!-- /.news-card__top -->
+            <div class="news-card__news">
+              <a href="#" class="news-card__link">
+                <h3 class="title news-card__title">Командный дух</h3>
+              </a>
+              <p class="news-card__text">Стремясь к победам, тренеры объединяют индивидуальные таланты в командную силу, а
+                менеджеры выстраивают вертикаль
+                власти. О достижениях и неудачах команд и клубов - в самом коллективном блоге «Командный дух»!</p>
+            </div>
+            <!-- /.news-card__news -->
+            <div class="news-card__bottom">
+              <a href="#" class="news-card__autor">
+                <img src="img/news/test.jpg" alt="">
+                <span>Иван Иванов</span>
+              </a>
+              <a href="#" class="news-card__share"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+          <!-- /.news-card -->
+                
+          <div class="news-card">
+            <div class="news-card__top">
+              <div class="background-news"></div>
+              <img
+                src="https://www.soccer.ru/sites/default/files/styles/new_desine_465_310_webp/public/blogs/records/999_2.jpg?itok=FlM0gr5N"
+                alt="">
+              <div class="news-card__top-wrap">
+                <div class="news-card__category"><span>Блог</span></div>
+                <a href="#" class="news-card__date">
+                  <span>29 ноября 2021</span>
+                  <span>- 10 минут назад</span>
+                </a>
+                <div class="news-card__reviews">
+                  <button class="news-card__reviews-btn"><i class="far fa-comments"></i></button>
+                  <span>10</span>
+                  <button class="news-card__reviews-btn"><i class="far fa-heart"></i></button>
+                  <span>15</span>
+                </div>
+              </div>
+            </div>
+            <!-- /.news-card__top -->
+            <div class="news-card__news">
+              <a href="#" class="news-card__link">
+                <h3 class="title news-card__title">Трансферная лихорадка</h3>
+              </a>
+              <p class="news-card__text">Блог об одном из самых захватывающих явлений футбольного мира - о трансферах!
+                Состоявшихся и потенциальных, больших и
+                маленьких, удачных и провальных.</p>
+            </div>
+            <!-- /.news-card__news -->
+            <div class="news-card__bottom">
+              <a href="#" class="news-card__autor">
+                <img src="img/news/test.jpg" alt="">
+                <span>Иван Иванов</span>
+              </a>
+              <a href="#" class="news-card__share"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+          <!-- /.news-card -->
+        
+          <div class="news-card">
+            <div class="news-card__top">
+              <div class="background-news"></div>
+              <img
+                src="https://www.soccer.ru/sites/default/files/styles/new_desine_465_310_webp/public/blogs/records/nd3_50i7275_thumb7.jpg?itok=_wM-ODYe"
+                alt="">
+              <div class="news-card__top-wrap">
+                <div class="news-card__category"><span>Блог</span></div>
+                <a href="#" class="news-card__date">
+                  <span>29 ноября 2021</span>
+                  <span>- 10 минут назад</span>
+                </a>
+                <div class="news-card__reviews">
+                  <button class="news-card__reviews-btn"><i class="far fa-comments"></i></button>
+                  <span>10</span>
+                  <button class="news-card__reviews-btn"><i class="far fa-heart"></i></button>
+                  <span>15</span>
+                </div>
+              </div>
+            </div>
+            <!-- /.news-card__top -->
+            <div class="news-card__news">
+              <a href="#" class="news-card__link">
+                <h3 class="title news-card__title">Командный дух</h3>
+              </a>
+              <p class="news-card__text">Стремясь к победам, тренеры объединяют индивидуальные таланты в командную силу, а
+                менеджеры выстраивают вертикаль
+                власти. О достижениях и неудачах команд и клубов - в самом коллективном блоге «Командный дух»!</p>
+            </div>
+            <!-- /.news-card__news -->
+            <div class="news-card__bottom">
+              <a href="#" class="news-card__autor">
+                <img src="img/news/test.jpg" alt="">
+                <span>Иван Иванов</span>
+              </a>
+              <a href="#" class="news-card__share"><i class="fas fa-share-alt"></i></a>
+            </div>
+          </div>
+          <!-- /.news-card -->
+                
+          <button class="button news__button">
+            <span>Ещё статьи</span>
+          </button>
+        
+        </div>
+        <!-- /.news -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.all-news -->
+
+  </main>
+  <!-- /.main -->
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-top__wrapper">
+          <h5 class="title footer-top__title">Подпишитесь для получения обновлений</h5>
+          <form action="send.php" method="POST" class="footer-top__form">
+            <input id="form-mail" type="mail" class="footer-top__subscribe" placeholder="Введите свой почтовый адрес ..." name="mail"
+              required minlength="4">
+            <button class="button footer-top__btn">Подписаться</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- /.footer-top -->
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-main__wrapper">
+          <div class="footer-main__about">
+            <a href="#" class="footer-main__title">
+              <h3>Футбольные<span>Новости</span></h3>
+            </a>
+            <p class="footer-main__text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.</p>
+          </div>
+          <!-- /.footer-main__about -->
+          <div class="footer-main__nav">
+            <div class="footer-main__head">
+              <div class="line-shape"></div>
+              <h3>Навигация</h3>
+            </div>
+            <nav>
+              <ul>
+                <li>
+                  <a href="index.html">Главная</a>
+                </li>
+                <li>
+                  <a href="news.html">Новости</a>
+                </li>
+                <li>
+                  <a href="blog.html">Блог</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /.footer-main__nav -->
+          <div class="footer-main__social">
+            <div class="footer-main__head">
+              <div class="line-shape"></div>
+              <h3>Контакты</h3>
+            </div>
+            <ul>
+              <li >
+                <a id="telegram" href="#">
+                  <i class="fab fa-telegram-plane" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li >
+                <a id="instagram" href="#">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li >
+                <a id="gmail" href="#">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.footer-main__social -->
+        </div>
+        <!-- /.footer-main__wrapper -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.footer-main -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom__wrapper">
+          <span>Copyright @ 2018, SoccersPres. All Right Reserved</span>
+          <span>Design by CodePassenger</span>
+        </div>
+      </div>
+    </div>
+    <!-- /.footer-bottom -->
+  </footer>
+  <!-- /.footer -->
+
+
+  <script src="js/plugins/aos.js"></script>
+  <script src="js/plugins/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
